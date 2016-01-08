@@ -10,6 +10,7 @@
     "url": "git://github.com/aspnet/usersecrets"
   },
   "dependencies": {
+<<<<<<< HEAD
     "Microsoft.Extensions.Configuration.UserSecrets": "1.0.0-rc1-final",
     "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-final",
     "Microsoft.Extensions.CommandLineUtils.Sources": {
@@ -17,6 +18,12 @@
       "type": "build"
     },
     "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+=======
+    "Microsoft.Extensions.Configuration.UserSecrets": "1.0.0-*",
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0-*",
+    "Microsoft.Extensions.CommandLineUtils": "1.0.0-*",
+    "Microsoft.Extensions.Logging": "1.0.0-*",
+>>>>>>> refs/remotes/aspnet/dev
     "Newtonsoft.Json": "6.0.6"
   },
   "commands": {
@@ -26,8 +33,13 @@
     "dnx451": {},
     "dnxcore50": {
       "dependencies": {
+<<<<<<< HEAD
         "System.Console": "4.0.0-beta-23516",
         "System.Reflection.Extensions": "4.0.1-beta-23516"
+=======
+        "System.Console": "4.0.0-*",
+        "System.Reflection.Extensions": "4.0.1-*"
+>>>>>>> refs/remotes/aspnet/dev
       }
     }
   }

@@ -15,10 +15,13 @@
   "frameworks": {
     "net451": {},
     "dotnet5.4": {
+<<<<<<< HEAD
       "dependencies": {
         "System.Runtime": "4.0.21-beta-23516",
         "System.Runtime.Serialization.Primitives": "4.1.0-beta-23516"
       }
+=======
+>>>>>>> refs/remotes/aspnet/dev
     }
   }
 }
